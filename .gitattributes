@@ -1,5 +1,4 @@
 * text=auto
-
 *.fig binary
 *.mat binary
 *.mdl binary diff merge=mlAutoMerge
@@ -18,7 +17,6 @@
 *.slxc binary
 *.slx binary merge=mlAutoMerge
 *.slxp binary
-
 ## Other common binary file types
 *.docx binary
 *.exe binary
@@ -26,3 +24,4 @@
 *.pdf binary
 *.png binary
 *.xlsx binary
+*.laz filter=lfs diff=lfs merge=lfs -text
